@@ -99,9 +99,9 @@ button:focus-visible {
 .title-layer {
     position: absolute;
     z-index: 7;
-    left: 24%;
-    top: 0.4%;
-    height: 27%;
+    left: 16%;
+    top: -14%;
+    height: 45%;
     width: auto;
     aspect-ratio: 1400 / 623;
     pointer-events: none;
@@ -119,8 +119,8 @@ button:focus-visible {
 .counter {
     position: absolute;
     z-index: 9;
-    left: 71.1%;
-    top: 10.2%;
+    left: 70.5%;
+    top: 12.2%;
     width: 7.6%;
     height: 8.1%;
     display: flex;
@@ -131,7 +131,7 @@ button:focus-visible {
     font-size: 1.03cqw;
     font-weight: 700;
     font-variant-numeric: tabular-nums;
-    transform: rotate(4deg);
+    transform: rotate(15deg);
     border: 0;
     border-radius: 0;
     background: transparent;
@@ -495,35 +495,37 @@ button:focus-visible {
         background-size: 100vw auto;
         background-repeat: repeat-y;
         background-attachment: scroll;
+	padding-top: 8vw;
     }
 
     .game-stage {
         width: 100vw;
         aspect-ratio: 2 / 3;
         margin: 0 auto;
+	overflow: visible;
         filter: drop-shadow(0 10px 18px rgba(70, 58, 48, 0.14));
     }
 
     .title-layer {
-        left: 1%;
-        top: 2.1%;
-        width: 72%;
+        left: 2%;
+        top: -4%;
+        width: 75%;
         height: auto;
     }
 
     .counter {
-        left: 74.3%;
-        top: 7.8%;
+        left: 73.3%;
+        top: 7.5%;
         width: 13%;
         height: 7.2%;
-        font-size: 2.0cqw;
-	transform: rotate(15deg);
+        font-size: 1.5cqw;
+	transform: rotate(17deg);
         transform-origin: center center;
     }
 
     .cards-container {
         left: 7.1%;
-        top: 24%;
+        top: 18%;
         width: 85.8%;
         height: 22.5%;
         gap: 0.75%;
@@ -560,7 +562,7 @@ button:focus-visible {
 
     .controls {
         left: 5.4%;
-        top: 45.5%;
+        top: 40%;
         width: 89.2%;
         height: 10.9%;
     }
@@ -626,5 +628,12 @@ button:focus-visible {
         animation-duration: 1ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 1ms !important;
+    }
+}
+
+@media (min-width: 721px) {
+    body {
+        align-items: flex-start;
+        padding-top: 14svh;
     }
 }
