@@ -518,7 +518,7 @@ button:focus-visible {
         top: 7.5%;
         width: 13%;
         height: 7.2%;
-        font-size: 1.5cqw;
+        font-size: 0.8cqw;
 	transform: rotate(17deg);
         transform-origin: center center;
     }
