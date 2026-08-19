@@ -495,12 +495,14 @@ button:focus-visible {
         background-size: 100vw auto;
         background-repeat: repeat-y;
         background-attachment: scroll;
+	padding-top: 8vw;
     }
 
     .game-stage {
         width: 100vw;
         aspect-ratio: 2 / 3;
         margin: 0 auto;
+	overflow: visible;
         filter: drop-shadow(0 10px 18px rgba(70, 58, 48, 0.14));
     }
 
@@ -523,7 +525,7 @@ button:focus-visible {
 
     .cards-container {
         left: 7.1%;
-        top: 18%;
+        top: 19%;
         width: 85.8%;
         height: 22.5%;
         gap: 0.75%;
@@ -560,7 +562,7 @@ button:focus-visible {
 
     .controls {
         left: 5.4%;
-        top: 40%;
+        top: 39.8%;
         width: 89.2%;
         height: 10.9%;
     }
