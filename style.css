@@ -516,12 +516,12 @@ button:focus-visible {
         top: 7.8%;
         width: 13%;
         height: 7.2%;
-        font-size: 2.4cqw;
+        font-size: 2.0cqw;
     }
 
     .cards-container {
         left: 7.1%;
-        top: 25.3%;
+        top: 24%;
         width: 85.8%;
         height: 22.5%;
         gap: 0.75%;
@@ -552,13 +552,13 @@ button:focus-visible {
     }
 
     .card-suit {
-        top: 56.5%;
-        font-size: 8.2cqw;
+        top: 57%;
+        font-size: 6cqw;
     }
 
     .controls {
         left: 5.4%;
-        top: 46.6%;
+        top: 45.5%;
         width: 89.2%;
         height: 10.9%;
     }
