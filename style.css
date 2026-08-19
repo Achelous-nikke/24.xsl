@@ -517,6 +517,8 @@ button:focus-visible {
         width: 13%;
         height: 7.2%;
         font-size: 2.0cqw;
+	transform: rotate(15deg);
+        transform-origin: center center;
     }
 
     .cards-container {
